@@ -1,0 +1,6 @@
+{
+  "version": "14.4.0",
+  "sha256": "ff810a806daa1e600de97b9e30ea6bc17ee1ddf76321b258d5a169fb42735e1b",
+  "origin": "Repacked original tested installation; 286 files verified against original RECORD hashes. Shared FFmpeg libraries and licenses included. No recompilation or package version change.",
+  "platform": "CPython 3.11 Linux x86_64, manylinux2014"
+}
