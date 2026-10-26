@@ -24,6 +24,8 @@ BEHAVIOR public-test instances 301–310; action seed42; 32-action chunks; offic
 |309|0|0.0|0|0.5|
 |310|1|1.0|0|0.0|
 
+Reproduction tag: `cook-hot-dogs-step5000`. Check out this tag to reproduce the released code after future updates.
+
 ## Run
 
 Linux, Python3.11, NVIDIA GPU. The inference server does not require Isaac Sim.
