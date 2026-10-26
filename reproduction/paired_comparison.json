@@ -1,0 +1,171 @@
+{
+  "label": "Oracle Upper Bound vs RGB baseline \u2014 NOT information-matched architecture comparison",
+  "paired_n": 10,
+  "baseline_success_rate": 0.2,
+  "candidate_success_rate": 0.5,
+  "baseline_mean_q": 0.2,
+  "candidate_mean_q": 0.55,
+  "pairs": [
+    {
+      "instance_id": 301,
+      "baseline": {
+        "success": 0,
+        "q": 0.0,
+        "steps": 13718,
+        "elapsed_seconds": 1273.298854255001
+      },
+      "candidate": {
+        "success": 0,
+        "q": 0.0,
+        "steps": 13718,
+        "elapsed_seconds": 1736.3468819400296
+      },
+      "delta_q": 0.0
+    },
+    {
+      "instance_id": 302,
+      "baseline": {
+        "success": 1,
+        "q": 1.0,
+        "steps": 13585,
+        "elapsed_seconds": 1224.7417121890467
+      },
+      "candidate": {
+        "success": 1,
+        "q": 1.0,
+        "steps": 11236,
+        "elapsed_seconds": 1278.916667806916
+      },
+      "delta_q": 0.0
+    },
+    {
+      "instance_id": 303,
+      "baseline": {
+        "success": 0,
+        "q": 0.0,
+        "steps": 13718,
+        "elapsed_seconds": 1200.6809793040156
+      },
+      "candidate": {
+        "success": 1,
+        "q": 1.0,
+        "steps": 11658,
+        "elapsed_seconds": 1461.9305827771313
+      },
+      "delta_q": 1.0
+    },
+    {
+      "instance_id": 304,
+      "baseline": {
+        "success": 0,
+        "q": 0.0,
+        "steps": 13718,
+        "elapsed_seconds": 1140.5729097750736
+      },
+      "candidate": {
+        "success": 1,
+        "q": 1.0,
+        "steps": 10745,
+        "elapsed_seconds": 1273.3659072080627
+      },
+      "delta_q": 1.0
+    },
+    {
+      "instance_id": 305,
+      "baseline": {
+        "success": 0,
+        "q": 0.0,
+        "steps": 13718,
+        "elapsed_seconds": 1555.972364166053
+      },
+      "candidate": {
+        "success": 0,
+        "q": 0.0,
+        "steps": 13718,
+        "elapsed_seconds": 1586.9778746939264
+      },
+      "delta_q": 0.0
+    },
+    {
+      "instance_id": 306,
+      "baseline": {
+        "success": 0,
+        "q": 0.0,
+        "steps": 13718,
+        "elapsed_seconds": 1138.9039561880054
+      },
+      "candidate": {
+        "success": 1,
+        "q": 1.0,
+        "steps": 11116,
+        "elapsed_seconds": 1496.145797634963
+      },
+      "delta_q": 1.0
+    },
+    {
+      "instance_id": 307,
+      "baseline": {
+        "success": 0,
+        "q": 0.0,
+        "steps": 13718,
+        "elapsed_seconds": 1192.6558548739413
+      },
+      "candidate": {
+        "success": 0,
+        "q": 0.0,
+        "steps": 13718,
+        "elapsed_seconds": 2057.5304445149377
+      },
+      "delta_q": 0.0
+    },
+    {
+      "instance_id": 308,
+      "baseline": {
+        "success": 0,
+        "q": 0.0,
+        "steps": 13718,
+        "elapsed_seconds": 1261.528812568984
+      },
+      "candidate": {
+        "success": 1,
+        "q": 1.0,
+        "steps": 10882,
+        "elapsed_seconds": 1205.7502103559673
+      },
+      "delta_q": 1.0
+    },
+    {
+      "instance_id": 309,
+      "baseline": {
+        "success": 0,
+        "q": 0.0,
+        "steps": 13718,
+        "elapsed_seconds": 1229.6672177369474
+      },
+      "candidate": {
+        "success": 0,
+        "q": 0.5,
+        "steps": 13718,
+        "elapsed_seconds": 1701.04972021305
+      },
+      "delta_q": 0.5
+    },
+    {
+      "instance_id": 310,
+      "baseline": {
+        "success": 1,
+        "q": 1.0,
+        "steps": 11113,
+        "elapsed_seconds": 963.7598246700363
+      },
+      "candidate": {
+        "success": 0,
+        "q": 0.0,
+        "steps": 13718,
+        "elapsed_seconds": 1583.7503899699077
+      },
+      "delta_q": -1.0
+    }
+  ],
+  "limitation": "fixed ten instances/seed42; extra privileged inputs; exploratory only"
+}

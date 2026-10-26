@@ -1,0 +1,79 @@
+{
+  "schema": "tcpi.release.v1",
+  "name": "TC-\u03c00.5",
+  "architecture": "tc_esgr_v2",
+  "task": "cook_hot_dogs",
+  "checkpoint_step": 5000,
+  "weights_repo": "Songyuan666/TC-pi0.5",
+  "upstream_code": {
+    "repo": "https://github.com/mli0603/openpi-comet",
+    "commit": "4bb2aa7bb2da32614cac128ebb4b2f96eb66e5b5"
+  },
+  "base_upstream": {
+    "repo": "sunshk/openpi_comet_pytorch",
+    "revision": "5a489fe50fdc8e256533c8c611dfd60c247520cf",
+    "folder": "pi05-b1kpt50-cs32"
+  },
+  "implementation_source_sha256": {
+    "src/tgr/__init__.py": "936f9fecaf1018d9b165d0f66d3e1884f1f5a14fed832dce2aafb1a003bed075",
+    "src/tgr/approx_reachability.py": "917d8019592dc7c614f7ac0a9081dd90f787a201e806d0313fd579ff4b57420c",
+    "src/tgr/augment.py": "cdee62fb13894d3039567287e4bc432c7c079de0adbff9195fa75338fa1bdbec",
+    "src/tgr/build_batches.py": "2197af2e3bfb7b395bceb7d064381033a653b9c2a5d2030c7c96bcb2fee3d265",
+    "src/tgr/data.py": "85d9a8b847b87e9ee9a18d06fef0f0dfbc95c053f9494f6e868dc24f8b436b6f",
+    "src/tgr/encoders.py": "68139ef42e8dbb944bc058a5eca9c3cb45102edf602d8777c0c88ac41c916c51",
+    "src/tgr/factory.py": "35a89c0a581057867002e0ab7c163340babd2e9ca921e6e169f406ab7bfa7cb8",
+    "src/tgr/geometry.py": "f57a91a6619be6fb0688ef51e18bc20240859484ff8560a282ec40e86562ad31",
+    "src/tgr/geometry_cache.py": "61e26dab55b99a08667133331120fa3825b3757e0fbc6b657bba6ba3d51101e6",
+    "src/tgr/geometry_data.py": "cbbff449418395722ca8ed3c988ad2abf8b5b3f1a9cb902cc694e5a629eeb465",
+    "src/tgr/input_adapter.py": "fb9651e87d6842cc1429d9a72638814ce0d667ca153c3b76516a8bf7aab944d8",
+    "src/tgr/kinematics.py": "fe408d91a45f9d97df81610e16575960f18d5570661286557eb44d5e35a65dd6",
+    "src/tgr/masks.py": "d24ec342708dc845611a79821b86db5d2cb17a30a1f386acdc8cd3d3ea61d007",
+    "src/tgr/metrics.py": "5bdb086ea86c5b2d7354599f3046939d2719ff3fc6d36f6b44ce333aa4daca47",
+    "src/tgr/model.py": "2be40ea9418ef269cc53ef68fb5beeff8d93c8121261e73812b0665559c9d082",
+    "src/tgr/oracle.py": "6fbeb1b590c96ba17a3bdfd119ec4ef5490392f88dd791650fe66a7e7b554939",
+    "src/tgr/reachability.py": "f7b2ff7a5bcfe4662466665f05d5a655912c18b4e7f81fe0d76eb55191cfc2ae",
+    "src/tgr/runtime_bridge.py": "8da5fe812405200ec7ca40eef930e16b9db886b32c3354ef313934c18fefc0c2",
+    "src/tgr/state.py": "70013967ca1dd9200d121f8ef79332445dbf37735a9b0a672183020a3e186f87",
+    "src/tgr/task.py": "cb126c6be4566b1dfc65778e1deff6684a3c71eb1e397dd5eb66be9e310f8d60",
+    "src/tgr/task_feedback.py": "21c25868cc8d0117394a1f11e5b7c614ded26d5e225d4b25d304443779e0de06",
+    "src/tgr/tensorize.py": "89379e1fb36a07d609dce93f101ae11264bcb3dc93661998370c177f9776bd5b",
+    "src/tgr/training.py": "7562246a58fd2b19ec21e68f4578dca4e38ff3652eae43b80076b7e3504ae695",
+    "src/tgr/view.py": "6f59ed50bdd428f9e9c777fcdbbebc7ec64519541789bfd24bc256bbd0c78282",
+    "reports/asset_bounds_readonly_audit.json": "1df2f8ac18f59ee6404a5e72427c788ee74138e72ca239f0c5ada8b91c146e9b",
+    "reports/robot_gripper_proxy_source.json": "778ae9550bde73e321a0eba46826da501af63492a75e55133ea08ed8bbb9258d"
+  },
+  "files": [
+    {
+      "path": "cook_hot_dogs/step5000/model.safetensors",
+      "sha256": "80436905542b0ce75d77d17cf908b29846f5497b58189177d406daebdd3e1239",
+      "bytes": 7492623540
+    },
+    {
+      "path": "cook_hot_dogs/step5000/metadata.json",
+      "sha256": "54b23ad26fcdbf3a00e253f57b402ee59043855649886eaeb0dd1963e91195c5",
+      "bytes": 108905
+    },
+    {
+      "path": "pi0.5-behaviour-base/config.json",
+      "sha256": "a4ae208203adfdd64c5fdbd4b0dc257e4ebbc82e464cb146dd0377051b25fc0a",
+      "bytes": 149
+    },
+    {
+      "path": "pi0.5-behaviour-base/model.safetensors",
+      "sha256": "7e257666d835f6af701de493676a6c86a0421b2efc737a0f911d782b7a09f635",
+      "bytes": 7233650408
+    },
+    {
+      "path": "pi0.5-behaviour-base/assets/behavior-1k/2025-challenge-demos/norm_stats.json",
+      "sha256": "d66ed16830a98f90dde8a315058b4a0df59f5e05734c1686d8b3f66787d0a929",
+      "bytes": 6368
+    },
+    {
+      "path": "common/paligemma_tokenizer.model",
+      "sha256": "8986bb4f423f07f8c7f70d0dbe3526fb2316056c17bae71b1ea975e77a168fc6",
+      "bytes": 4264023
+    }
+  ],
+  "model_math_changed": false,
+  "weights_revision": "7ee996d9184511cff6d9720e73862ae8ee12a664"
+}

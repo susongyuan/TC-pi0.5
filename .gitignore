@@ -1,0 +1,8 @@
+.venv*/
+__pycache__/
+*.py[cod]
+weights/
+.runtime/
+runs/
+*.mp4
+*.safetensors
