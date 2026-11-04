@@ -1,4 +1,8 @@
-# TC-π0.5
+# TC-π0.5 — hotdog (`cook_hot_dogs`)
+
+<!-- HOTDOG-TASK-SCOPE-20261104 -->
+**Fine-tuned task: hotdog (`cook_hot_dogs`) only.** The bundled PT50 base remains an unchanged50-task model. The10-instance release results below are historical; the later fixed301–320 complete20 suite achieved TC9/20(meanQ .5000), PT50 5/20(meanQ .2750). [Complete20 records and newer TGCC hotdog releases](https://github.com/susongyuan/TGCC/blob/main/reproduction/completed20_results.md). Original source tags, tensor bytes and metadata remain unchanged.
+
 
 Three-layer spatiotemporal graph conditioning for π0.5: global state and preceding task tokens enter the VLM prefix; local interaction and latent subgoal tokens enter the action expert. The current release is the exact full-fine-tuned `cook_hot_dogs` step5000 model evaluated on 2026-10-25.
 
